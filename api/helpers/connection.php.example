@@ -1,0 +1,11 @@
+<?php
+
+session_start();
+$con = mysqli_connect("localhost", "user", "user", "dentistinyou");
+
+if ($con->connect_error) {
+  die("Connection failed: " . $conn->connect_error);
+} 
+
+$environment = "dev";
+$environment = "production";

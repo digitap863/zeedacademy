@@ -1,0 +1,4 @@
+[04-May-2022 07:32:01 UTC] PHP Warning:  require(../api/helpers/connection.php): failed to open stream: No such file or directory in /home/u772758649/domains/zeedacademy.com/public_html/admin/index.php on line 5
+[04-May-2022 07:32:01 UTC] PHP Fatal error:  require(): Failed opening required '../api/helpers/connection.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u772758649/domains/zeedacademy.com/public_html/admin/index.php on line 5
+[04-May-2022 07:32:27 UTC] PHP Warning:  require(../api/helpers/connection.php): failed to open stream: No such file or directory in /home/u772758649/domains/zeedacademy.com/public_html/admin/index.php on line 5
+[04-May-2022 07:32:27 UTC] PHP Fatal error:  require(): Failed opening required '../api/helpers/connection.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/u772758649/domains/zeedacademy.com/public_html/admin/index.php on line 5

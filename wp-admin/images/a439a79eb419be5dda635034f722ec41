@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="keywords" content="HTML5 Template Archo onepage themeforest" />
+    <meta name="description" content="Archo - Onepage Multi-Purpose HTML5 Template" />
+    <meta name="author" content="" />
+
+    <!-- Title  -->
+    <title>ZEED | Home</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" />
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!-- Plugins -->
+    <link rel="stylesheet" href="css/plugins.css" />
+
+    <!-- Core Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+
+
+    <!-- ==================== Start Loading ==================== -->
+
+    <div id="preloader">
+        <div class="loading-text">Loading</div>
+    </div>
+
+    <!-- ==================== End Loading ==================== -->
+
+
+    <!-- ==================== Start progress-scroll-button ==================== -->
+
+    <div class="progress-wrap cursor-pointer">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+        </svg>
+    </div>
+
+    <!-- ==================== End progress-scroll-button ==================== -->
+
+
+    <!-- ==================== Start cursor ==================== -->
+
+    <div class="mouse-cursor cursor-outer"></div>
+    <div class="mouse-cursor cursor-inner"></div>
+
+    <!-- ==================== End cursor ==================== -->
+
+
+    <!-- ==================== Start Navbar ==================== -->
+
+    <nav class="navbar change navbar-expand-lg">
+        <div class="container">
+
+            <!-- Logo -->
+            <a class="logo" href="index.html">
+                <img src="img/logo-light.png" alt="logo">
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"><i class="fas fa-bars"></i></span>
+            </button>
+
+            <!-- navbar links -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link data-toggle=" dropdown" href="index.html" role="button" aria-haspopup="true"
+                            aria-expanded="false">Home</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="course.html" role="button"
+                            aria-haspopup="true" aria-expanded="false">Courses</a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="course.html">Accounting Courses</a>
+                            <a class="dropdown-item" href="course.html">Designing Courses</a>
+                            <a class="dropdown-item" href="course.html">Networking Courses</a>
+                            <a class="dropdown-item" href="course.html">CAD Courses</a>
+                            <a class="dropdown-item" href="course.html">Managing & Gov Coursees</a>
+                            <!-- <div class="row">
+                                <div class="col-md-2">
+                                    <tr>
+                                        <a class="dropdown-item" href="index.html">Tally + GST</a>
+                                        <a class="dropdown-item" href="index3.html">Accounting In<br>Taxation</a>
+                                        <a class="dropdown-item" href="index3.html">DCA</a>
+                                        <a class="dropdown-item" href="index3.html">Peach Tree</a>
+                                        <a class="dropdown-item" href="index2.html"> Quick Books</a>
+                                        <a class="dropdown-item" href="index2.html">SAP</a>
+                                        <a class="dropdown-item" href="index2.html"> Data Entry</a>
+                                    </tr>
+                                </div>
+                                <div class="col-md-2">
+                                    <tr>
+                                        <a class="dropdown-item" href="index.html">Indian And Foreign<br>Accounting
+                                        </a>
+                                        <a class="dropdown-item" href="index3.html">Global Accounting</a>
+                                        <a class="dropdown-item" href="index3.html">Coprate Accounting </a>
+                                        <a class="dropdown-item" href="index3.html">VAT</a>
+                                        <a class="dropdown-item" href="index2.html">Internet And Email</a>
+                                        <a class="dropdown-item" href="index2.html">Logistics</a>
+                                        <a class="dropdown-item" href="index2.html">Microsoft Office</a>
+                                    </tr>
+                                </div>
+                                <div class="col-md-2">
+                                    <tr>
+                                        <a class="dropdown-item" href="index.html">Multimedia</a>
+                                        <a class="dropdown-item" href="index3.html">Gulf Package</a>
+                                        <a class="dropdown-item" href="index3.html">Programing</a>
+                                        <a class="dropdown-item" href="index3.html">Interior Designing</a>
+                                        <a class="dropdown-item" href="index2.html">Animation</a>
+                                        <a class="dropdown-item" href="index2.html">Fashion Designing</a>
+                                        <a class="dropdown-item" href="index2.html">Computer Teacher<br>Training</a>
+                                    </tr>
+                                </div>
+                                <div class="col-md-2">
+                                    <tr>
+                                        <a class="dropdown-item" href="index.html">Civil CAD</a>
+                                        <a class="dropdown-item" href="index3.html">Mechanical CAD</a>
+                                        <a class="dropdown-item" href="index2.html">Front Office<br>Management</a>
+                                        <a class="dropdown-item" href="index3.html">Electrical CAD</a>
+                                        <a class="dropdown-item" href="index3.html">Web Designing</a>
+                                        <a class="dropdown-item" href="index2.html">Graphic Designing</a>
+                                        <a class="dropdown-item" href="index2.html">Beautician</a>
+                                    </tr>
+                                </div>
+                                <div class="col-md-2">
+                                    <tr>
+                                        <a class="dropdown-item" href="index.html">Hospitality Management</a>
+                                        <a class="dropdown-item" href="index3.html">Administration <br>Courses</a>
+                                        <a class="dropdown-item" href="index3.html">Spoken Englsh</a>
+                                        <a class="dropdown-item" href="index3.html">Personal Grooming</a>
+                                        <a class="dropdown-item" href="index2.html">Secretarial Practice</a>
+                                        <a class="dropdown-item" href="index2.html">Front Office Operation</a>
+                                        <a class="dropdown-item" href="index2.html">Receptionist</a>
+                                    </tr>
+                                </div>
+                                <div class="col-md-2">
+                                    <tr>
+                                        <a class="dropdown-item" href="index.html">Publc Realtion Office</a>
+                                        <a class="dropdown-item" href="index3.html">Office Billing</a>
+                                        <a class="dropdown-item" href="index3.html">QA QC</a>
+                                        <a class="dropdown-item" href="index3.html">CCNA</a>
+                                        <a class="dropdown-item" href="index2.html"> MSP</a>
+                                        <a class="dropdown-item" href="index2.html">ESD + Solar Insulation</a>
+                                        <a class="dropdown-item" href="index2.html">Civil Engineering PSC<br>Coching</a>
+                                    </tr>
+                                </div>     
+                            </div> -->
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="admissions.html">Admissions</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link " href="gallery.html">Gallery</a>
+                        <!-- <div class="dropdown-menu">
+                            <a class="dropdown-item" href="blog.html">Blogs</a>
+                            <a class="dropdown-item" href="blog-details.html">Post Details</a>
+                        </div> -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="events.html">Events</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <div class="social-icon">
+                    <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                </div>
+                <!-- <div class="search">
+                        <span class="icon pe-7s-search cursor-pointer"></span>
+                        <div class="search-form text-center custom-font">
+                            <form>
+                                <input type="text" name="search" placeholder="Search">
+                            </form>
+                            <span class="close pe-7s-close cursor-pointer"></span>
+                        </div>
+                    </div> -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- ==================== End Navbar ==================== -->
+
+
+
+    <!-- ==================== Start Slider ==================== -->
+
+    <header class="slider">
+        <div class="swiper-container parallax-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="img/slid/home1.jpg" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 offset-lg-1">
+                                    <div class="caption hmone">
+                                        <!-- <h5 class="thin custom-font">Innovative</h5> -->
+                                        <!-- <h1 data-splitting><a href="#0">Architecture</a> -->
+                                        </h1>
+                                        <!-- <p class="mt-10">Right design and right ideas matter a lot of in interior design
+                                            business. <br> a style that makes a statement.</p> -->
+                                        <!-- <a href="#0" class="btn-curve btn-bord btn-lit mt-30"> -->
+                                            <!-- <span>Read More</span> -->
+                                        <!-- </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="img/slid/home2.jpg" data-overlay-dark="5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 offset-lg-1">
+                                    <div class="caption hmone">
+                                        <!-- <h5 class="thin custom-font">Classic</h5> -->
+                                        <!-- <h1 data-splitting><a href="#0"> -->
+                                                <!-- and Modern -->
+                                            <!-- </a></h1> -->
+                                        <!-- <p class="mt-10">Right design and right ideas matter a lot of in interior design
+                                            business. <br> a style that makes a statement.</p> -->
+                                        <!-- <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                            <span>Read More</span>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="img/slid/home3.jpg" data-overlay-dark="6">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 offset-lg-1">
+                                    <div class="caption hmone">
+                                        <!-- <h5 class="thin custom-font">Elegant &</h5> -->
+                                        <!-- <h1 data-splitting><a href="#0"> -->
+                                                <!-- Unique Design -->
+                                            <!-- </a> -->
+                                        <!-- </h1> -->
+                                        <!-- <p class="mt-10">Right design and right ideas matter a lot of in interior design
+                                            business. <br> a style that makes a statement.</p> -->
+                                        <!-- <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                            <span>Read More</span>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="bg-img valign" data-background="img/slid/home4.jpg" data-overlay-dark="5">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-10 offset-lg-1">
+                                    <div class="caption hmone">
+                                        <!-- <h5 class="thin custom-font">interior</h5> -->
+                                        <!-- <h1 data-splitting><a href="#0"> -->
+                                                <!-- design agency -->
+                                            <!-- </a></h1> -->
+                                        <!-- <p class="mt-10">Right design and right ideas matter a lot of in interior design
+                                            business. <br> a style that makes a statement.</p> -->
+                                        <!-- <a href="#0" class="btn-curve btn-bord btn-lit mt-30">
+                                            <span>Read More</span>
+                                        </a> -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- slider setting -->
+            <div class="setone">
+                <div class="swiper-button-next swiper-nav-ctrl next-ctrl">
+                    <i class="fas fa-chevron-right"></i>
+                </div>
+                <div class="swiper-button-prev swiper-nav-ctrl prev-ctrl">
+                    <i class="fas fa-chevron-left"></i>
+                </div>
+            </div>
+            <!-- <div class="swiper-pagination top custom-font"></div> -->
+        </div>
+    </header>
+
+    <!-- ==================== End Slider ==================== -->
+
+
+
+    <!-- ==================== Start about ==================== -->
+
+    <section class="about section-padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <div class="exp-img wow fadeInUp" data-wow-delay=".2s">
+                        <div class="img bg-img wow imago" data-background="img/exp.jpg">
+                            <div class="since custom-font">
+                                <!-- <span>Since</span> -->
+                                <!-- <span>1999</span> -->
+                            </div>
+                            <div class="years custom-font">
+                                <!-- <h2>21</h2> -->
+                                <!-- <h5>Years Experience</h5> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 valign">
+                    <div class="exp-content wow fadeInUp" data-wow-delay=".3s">
+                        <h6 class="sub-title">About Us</h6>
+                        <h2 class="mb-20 playfont">Zeed - The Future Of Learning</h2>
+                        <p>Zeed is a forward-looking hub of learning dedicated to delivering the finest education in
+                            Accounting, IT, Networking ,and Design. Having a clear vision about the future job markets,
+                            we design our courses which work perfectly in tandem with your skills and aspirations. Our
+                            learned and experienced teaching faculties, amicable learning ambiance, and meticulous
+                            training sessions ensure you not only the best learning experience ever but a prosperous
+                            future as well. Join us, get your skills perfected, and be the master of your life.</p>
+                        <div class="numbers mt-50">
+                            <div class="row">
+                                <div class="col-md-3">
+                                    <div class="item">
+                                        <h3><span class="nbr custom-font">
+                                                13000+
+
+
+                                            </span></h3>
+                                        <h6>Students Trained</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="item">
+                                        <h3><span class="nbr custom-font">
+                                                463+
+
+
+                                            </span></h3>
+                                        <h6>Workshops</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="item">
+                                        <h3><span class="nbr custom-font">
+                                                86+</span></h3>
+                                        <h6>Placement Partners</h6>
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="item">
+                                        <h3><span class="nbr custom-font">
+                                            1845+</span></h3>
+                                        <h6>Guest Lectures</h6>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== End about ==================== -->
+
+
+
+    <!-- ==================== Start Services ==================== -->
+
+    <!-- <section class="services section-padding bg-gray">
+        <div class="container">
+            <div class="section-head text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-sm-10">
+                        <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">Best Features</h6>
+                        <h4 class="playfont wow flipInX" data-wow-delay=".5s">Our Services</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row bord-box bg-img wow fadeInUp" data-wow-delay=".3s" data-background="img/slid/home4.jpg">
+
+                <div class="col-lg-3 col-md-6 item-bx">
+                    <h2 class="custom-font numb">01</h2>
+                    <h6 class="mb-20">Architecture</h6>
+                    <p>Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat.</p>
+                    <a href="#0" class="more custom-font mt-30">Read More</a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 item-bx">
+                    <h2 class="custom-font numb">02</h2>
+                    <h6 class="mb-20">Interior Design</h6>
+                    <p>Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat.</p>
+                    <a href="#0" class="more custom-font mt-30">Read More</a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 item-bx">
+                    <h2 class="custom-font numb">03</h2>
+                    <h6 class="mb-20">3D Modeling</h6>
+                    <p>Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat.</p>
+                    <a href="#0" class="more custom-font mt-30">Read More</a>
+                </div>
+
+                <div class="col-lg-3 col-md-6 item-bx">
+                    <h2 class="custom-font numb">04</h2>
+                    <h6 class="mb-20">Furniture Design</h6>
+                    <p>Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat.</p>
+                    <a href="#0" class="more custom-font mt-30">Read More</a>
+                </div>
+
+            </div>
+        </div>
+    </section> -->
+
+    <!-- ==================== End Services ==================== -->
+
+
+
+    <!-- ==================== Start works ==================== -->
+
+
+
+    <!-- ==================== End works ==================== -->
+
+
+
+    <!-- ==================== Start Skills Circle ==================== -->
+
+    <section class="skills-circle section-padding bg-img parallaxie" data-background="img/1.jpg" data-overlay-dark="7">
+        <div class="container">
+            <div class="section-head text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-sm-10">
+                        <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">Why Us ?</h6>
+                        <h4 class="playfont wow flipInX" data-wow-delay=".5s">Our Speciality</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeInUp" data-wow-delay=".3s" style="margin-bottom: 30px;">
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="item text-center">
+                        <div class="skill" data-value="1">
+                            <span class="custom-font">100%</span>
+                            <h6>Inspiring Environment</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="item text-center">
+                        <div class="skill" data-value="1">
+                            <span class="custom-font">100%</span>
+                            <h6>Unique
+                                Teaching Method</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="item text-center">
+                        <div class="skill" data-value="1">
+                            <span class="custom-font">100%</span>
+                            <h6>Well Researched
+                                Courseware </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="item text-center">
+                        <div class="skill" data-value="1">
+                            <span class="custom-font">100%</span>
+                            <h6>Experienced &
+                                Qualified Faculty</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row wow fadeInUp" data-wow-delay=".3s">
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="item text-center">
+                        <div class="skill" data-value="1">
+                            <span class="custom-font">100%</span>
+                            <h6>Entrepreneurship</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="item text-center">
+                        <div class="skill" data-value="1">
+                            <span class="custom-font">100%</span>
+                            <h6>Placement Program</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="item text-center">
+                        <div class="skill" data-value="1">
+                            <span class="custom-font">100%</span>
+                            <h6>Bringing Industry
+                                to Classroom </h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 ">
+                    <div class="item text-center">
+                        <div class="skill" data-value="1">
+                            <span class="custom-font">100%</span>
+                            <h6>Multiple
+                                Locations </h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== End Skills Circle ==================== -->
+
+
+
+    <!-- ==================== Start Testimonials ==================== -->
+
+
+
+    <!-- ==================== End Testimonials ==================== -->
+
+
+
+    <!-- ==================== Start Team ==================== -->
+
+    <!-- -->
+
+    <!-- ==================== End Team ==================== -->
+
+
+
+    <!-- ==================== Start Blog ==================== -->
+
+    <section class="blog-grid section-padding mb-50">
+        <div class="container">
+            <div class="section-head text-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-6 col-md-8 col-sm-10">
+                        <h6 class="custom-font wow fadeInDown" data-wow-delay=".3s">Latest News</h6>
+                        <h4 class="playfont wow flipInX" data-wow-delay=".5s">Our Blogs</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-4">
+                    <div class="item wow fadeInUp md-mb50" data-wow-delay=".3s">
+                        <div class="post-img">
+                            <div class="img">
+                                <img src="img/blog/1.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <div class="info">
+                                <a href="#0">Alex Smith</a>
+                                <a href="#0">Aug 06 2019</a>
+                            </div>
+
+                            <h5 class="playfont"><a href="#0">In Good Taste: Mark Finlay Architects and Interiors</a>
+                            </h5>
+
+                            <a href="" class="more">
+                                <span class="custom-font">Read More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="item wow fadeInUp md-mb50" data-wow-delay=".1s">
+                        <div class="post-img">
+                            <div class="img">
+                                <img src="img/blog/2.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <div class="info">
+                                <a href="#0">Alex Smith</a>
+                                <a href="#0">Aug 06 2019</a>
+                            </div>
+
+                            <h5 class="playfont"><a href="#0">Five Things You Should Know About Modern Furniture.</a>
+                            </h5>
+
+                            <a href="" class="more">
+                                <span class="custom-font">Read More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="item wow fadeInUp" data-wow-delay=".5s">
+                        <div class="post-img">
+                            <div class="img">
+                                <img src="img/blog/3.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="cont">
+                            <div class="info">
+                                <a href="#0">Alex Smith</a>
+                                <a href="#0">Aug 06 2019</a>
+                            </div>
+
+                            <h5 class="playfont"><a href="#0">What it's like to be an interior designer?</a></h5>
+
+                            <a href="" class="more">
+                                <span class="custom-font">Read More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== End Blog ==================== -->
+
+
+
+    <!-- ==================== Start contact ==================== -->
+
+    <section class="contact cont-map">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 contact-form wow fadeInDown" data-wow-delay=".3s">
+                    <form id="contact-form" method="post" action="contact.php">
+                        <div class="section-head">
+                            <h6 class="custom-font">Contact Us</h6>
+                            <h4 class="playfont">Get In Touch</h4>
+                        </div>
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="form-group">
+                                <input id="form_name" type="text" name="name" placeholder="Name" required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <input id="form_email" type="email" name="email" placeholder="Email"
+                                    required="required">
+                            </div>
+
+                            <div class="form-group">
+                                <textarea id="form_message" name="message" placeholder="Message" rows="4"
+                                    required="required"></textarea>
+                            </div>
+
+                            <button type="submit" class="btn-curve btn-color"><span>Send Message</span></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="contact-map">
+            <div class="map" id="ieatmaps"></div>
+        </div>
+        <div class="bg-img" data-background="img/2.jpg"></div>
+    </section>
+
+    <!-- ==================== End contact ==================== -->
+
+
+
+    <!-- ==================== Start Footer ==================== -->
+
+    <footer class="main-footer dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="item abot">
+                        <div class="logo-footer mb-20">
+                            <a href="#0" class="logo">
+                                <img src="img/logo-light.png" alt="">
+                            </a>
+                        </div>
+                        <p>Our team takes over everything, from an idea and concept development to realization.</p>
+                        <div class="social-icon">
+                            <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#0"><i class="fab fa-twitter"></i></a>
+                            <a href="#0"><i class="fab fa-behance"></i></a>
+                            <a href="#0"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 offset-lg-1">
+                    <div class="item usful-links">
+                        <div class="fothead">
+                            <h6>Useful Links</h6>
+                        </div>
+                        <ul>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#0">Home</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#0">About</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#0">Admission</a></li>
+                            <li><i class="fas fa-chevron-right"></i> <a href="#0">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="item fotcont">
+                        <div class="fothead">
+                            <h6>Call</h6>
+                        </div>
+                        <p>+8592-955855</p>
+                        <!-- <p>+1(000)987654321</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="item fotcont">
+                        <div class="fothead">
+                            <h6>Write</h6>
+                        </div>
+                        
+                        <!-- <p>Username@website.com</p> -->
+                    </div>
+                </div>
+                <div class="col-lg-2">
+                    <div class="item fotcont">
+                        <div class="fothead">
+                            <h6>Visit</h6>
+                        </div>
+                        <p>Muvattupuzha <br>Thodupuzha <br>Ernakulam</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="sub-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div class="text-left">
+                            <p>© 2022 . <a
+                                    href="https://tapclone.co.in/" target="_blank">Tapclone</a>.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="text-right">
+                            <p>All right reserved.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ==================== End Footer ==================== -->
+
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="js/jquery-3.0.0.min.js"></script>
+    <script src="js/jquery-migrate-3.0.0.min.js"></script>
+
+    <!-- plugins -->
+    <script src="js/plugins.js"></script>
+
+    <!-- custom scripts -->
+    <script src="js/scripts.js"></script>
+
+    <!-- Map -->
+    <script src="js/map.js"></script>
+
+    <!-- google map api -->
+    <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDUU5FZiF5WLFFfgIC1n64Zr0zfpQZjBBg&callback=initMap">
+        </script>
+
+</body>
+
+</html>
+<style>
+    .margin {
+        margin-left: 20px;
+    }
+</style>
